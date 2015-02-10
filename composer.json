@@ -22,6 +22,11 @@
             "Behance\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Behance\\": "tests"
+        }
+    },
     "bin": [
         "bin/moso"
     ]
