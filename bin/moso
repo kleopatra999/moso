@@ -1,6 +1,8 @@
 #!/usr/bin/php
 <?php
 
+date_default_timezone_set('UTC');
+
 // Locate the boostrap autoloader
 foreach ( [ __DIR__ . '/../../../autoload.php', __DIR__ . '/../vendor/autoload.php' ] as $file ) {
 
