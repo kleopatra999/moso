@@ -2,8 +2,8 @@
 
 namespace Behance\Moso\Collectors;
 
-interface CollectorInterface {
-
+interface CollectorInterface
+{
     /**
      * @param  array $paths Array of file paths to search
      * @return array
@@ -17,7 +17,6 @@ interface CollectorInterface {
 
     /**
      * @param  string File path to dump merged result to
-     */   
+     */
     public function writeMergedResult($output_file);
-
 }
