@@ -30,7 +30,7 @@
         }
     ],
     "require": {
-        "satooshi/php-coveralls": "~0.7.0",
+        "chr0n1x/php-coveralls": "~0.7.0",
         "symfony/console": "~2.6"
     },
     "require-dev": {
