@@ -1,22 +1,10 @@
 {
-    "name": "behance/moso",
-    "description": "Clover -> Coveralls converter",
-    "license": "MIT",
     "authors": [
         {
-            "name": "Kevin Ran",
-            "email": "kran@adobe.com"
+            "email": "kran@adobe.com",
+            "name": "Kevin Ran"
         }
     ],
-    "minimum-stability": "stable",
-    "prefer-dist": true,
-    "require": {
-        "satooshi/php-coveralls": "dev-master#2fbf803",
-        "symfony/console": "~2.6"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0"
-    },
     "autoload": {
         "psr-4": {
             "Behance\\": "src"
@@ -29,5 +17,23 @@
     },
     "bin": [
         "bin/moso"
-    ]
+    ],
+    "description": "Clover -> Coveralls converter",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "name": "behance/moso",
+    "prefer-dist": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:chr0n1x/php-coveralls.git"
+        }
+    ],
+    "require": {
+        "satooshi/php-coveralls": "~0.7.0",
+        "symfony/console": "~2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
 }
